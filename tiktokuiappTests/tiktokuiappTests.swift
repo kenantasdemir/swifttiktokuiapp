@@ -1,9 +1,4 @@
-//
-//  tiktokuiappTests.swift
-//  tiktokuiappTests
-//
-//  Created by kenan on 7/1/25.
-//
+
 
 import Testing
 @testable import tiktokuiapp

@@ -29,14 +29,45 @@
 		6EAFCC412E1342E700037714 /* tiktokuiappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiktokuiappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6E081BD92E1490DA005DCBB3 /* Exceptions for "tiktokuiappTests" folder in "tiktokuiapp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				tiktokuiappTests.swift,
+			);
+			target = 6EAFCC262E1342E400037714 /* tiktokuiapp */;
+		};
+		6E081BDA2E1490DA005DCBB3 /* Exceptions for "tiktokuiappTests" folder in "tiktokuiappTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				tiktokuiappTests.swift,
+			);
+			target = 6EAFCC362E1342E700037714 /* tiktokuiappTests */;
+		};
+		6E081BDC2E156EB7005DCBB3 /* Exceptions for "tiktokuiapp" folder in "tiktokuiapp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6EAFCC262E1342E400037714 /* tiktokuiapp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6EAFCC292E1342E400037714 /* tiktokuiapp */ = {
+		6E081BAA2E143B9A005DCBB3 /* tiktokuiapp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6E081BDC2E156EB7005DCBB3 /* Exceptions for "tiktokuiapp" folder in "tiktokuiapp" target */,
+			);
 			path = tiktokuiapp;
 			sourceTree = "<group>";
 		};
-		6EAFCC3A2E1342E700037714 /* tiktokuiappTests */ = {
+		6E081BD72E1490DA005DCBB3 /* tiktokuiappTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6E081BD92E1490DA005DCBB3 /* Exceptions for "tiktokuiappTests" folder in "tiktokuiapp" target */,
+				6E081BDA2E1490DA005DCBB3 /* Exceptions for "tiktokuiappTests" folder in "tiktokuiappTests" target */,
+			);
 			path = tiktokuiappTests;
 			sourceTree = "<group>";
 		};
@@ -75,10 +106,10 @@
 		6EAFCC1E2E1342E400037714 = {
 			isa = PBXGroup;
 			children = (
-				6EAFCC292E1342E400037714 /* tiktokuiapp */,
-				6EAFCC3A2E1342E700037714 /* tiktokuiappTests */,
 				6EAFCC442E1342E700037714 /* tiktokuiappUITests */,
 				6EAFCC282E1342E400037714 /* Products */,
+				6E081BAA2E143B9A005DCBB3 /* tiktokuiapp */,
+				6E081BD72E1490DA005DCBB3 /* tiktokuiappTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +139,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6EAFCC292E1342E400037714 /* tiktokuiapp */,
+				6E081BAA2E143B9A005DCBB3 /* tiktokuiapp */,
+				6E081BD72E1490DA005DCBB3 /* tiktokuiappTests */,
 			);
 			name = tiktokuiapp;
 			packageProductDependencies = (
@@ -129,9 +161,6 @@
 			);
 			dependencies = (
 				6EAFCC392E1342E700037714 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6EAFCC3A2E1342E700037714 /* tiktokuiappTests */,
 			);
 			name = tiktokuiappTests;
 			packageProductDependencies = (
@@ -398,6 +427,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tiktokuiapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tiktokuiapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +456,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tiktokuiapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tiktokuiapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
